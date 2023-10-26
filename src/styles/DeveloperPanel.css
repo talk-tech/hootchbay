@@ -1,0 +1,28 @@
+.developer-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 25px;
+}
+
+.developer-sub-headings{
+    background-color: rgb(0, 0, 0);
+    color: white;
+}
+
+.developer-header {
+    background-color: chocolate;
+    color: white;
+}
+
+.developer-box {
+    border: 1px solid rgb(209, 209, 209);
+    padding: 5px;
+    border-radius: 15px;
+    box-shadow: rgb(204, 219, 232) 3px 3px 6px 0px inset, rgba(255, 255, 255, 0.5) -3px -3px 6px 1px inset;
+}
+
+.social-link {
+    text-decoration: none;
+    color: rgb(187, 187, 187);
+}

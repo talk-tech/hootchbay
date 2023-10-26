@@ -1,0 +1,19 @@
+.about-cards {
+    display: flex;
+    align-items: center;
+    
+}
+.last-text {
+    margin-top: 25px;
+}
+
+.about-text-box {
+
+}
+
+.about-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}

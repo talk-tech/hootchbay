@@ -1,0 +1,58 @@
+.nav-item-name {
+  color: white;
+  font-weight: bold;
+}
+
+.nav-item-name:hover {
+  color: chocolate;
+}
+
+.brand-name {
+  color: darkorange;
+  font-weight: bold;
+  font-size: 35px;
+}
+
+.developer-link {
+  color: darkorange;
+  font-weight: bold;
+}
+
+.developer-link:hover {
+  color: white;
+}
+
+.next-brand {
+  color: white;
+  font-size: 40px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+}
+
+.navbar {
+  background-color: rgb(20, 20, 20);
+}
+
+.logo {
+    animation: zoomIn 10s ease infinite;
+  }
+  
+  @keyframes zoomIn {
+    from {
+      transform: scale(0);
+    }
+    to {
+      transform: scale(1);
+    }
+  }
+
+  @media screen and (min-width: 300px) and (max-width: 575px) {
+  .brand-name {
+    font-size: 20px;
+  }
+
+  .next-brand {
+    font-size: 20px;
+  }
+  }
+  
